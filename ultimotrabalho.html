@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Dino Safe</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+
+        <link rel="stylesheet" href="icon1.css">
+        <link rel="stylesheet" href="titlesection.css">
+        <link rel="stylesheet" href="wrapper-foto.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="realfooter.css">
+
+        <style>
+            body {
+            margin: 0%;
+            background-color: #FFFAF0;
+            }
+            nav {
+                text-align: right;
+            }    
+            header {
+                background-color: #00CED1;
+                padding: 10px 20px;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+            }
+           .h1header {display: flex;
+                            width: 180px;
+                            height: 180px;}
+            a   {
+                display: inline-flex;
+                color: black;
+                align-items: center;
+                font-size: 20px;
+                font-family: "Fira code", Helvetica, Arial, sans-serif;
+                font-weight: 500;
+                text-decoration: none;
+                margin-right: 30px;
+            }
+            a::before {
+                content: "";
+                background-color: #FFFAF0;
+                width: 10px;
+                height: 10px;
+                margin-right: 10px;
+            }
+            button {
+                display: inline-block;
+                background-color: #FFFAF0;
+                color: black;
+                height: 60px;
+                line-height: 60px;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 20px;
+                font-family: "Fira code", Helvetica, Arial, sans-serif;
+                font-weight: 500;
+                box-shadow: 5px 5px #FFFAF0;
+                cursor: pointer;
+                transition: transform 100ms cubic-bezier(0.42, 0, 0.51, 2.64);
+            }
+            button:hover {
+                transform: scale(1.08);
+            }
+            .caixa {
+                display: flex;
+                border: 5px solid black;
+                text-align: center;
+                width: 400px;
+                height: 20px;
+                cursor: pointer;
+            }
+            .wrapper-foto {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 770px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                text-align: center;
+                height: 770px;
+                border: 5px solid black;
+            }
+            .wrapper-foto .titlesection {
+                color: black;
+                font-family: 'Press Start 2P', sans-serif;
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 40px;
+                margin-top: 15px;
+            }
+            .wrapper-foto .icon1 {
+                width: 375px;
+                height: 375px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .wrapper-foto .icon2 {
+                width: 125px;
+                height: 125px;
+                margin-right: 15px;
+                margin-left: 15px;
+                padding-top: 80px;
+                cursor: pointer;
+            }
+            .wrapper-foto .titlesection2 {
+                color: black;
+                font-family: 'Press Start 2P', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 40px;
+            }
+            .wrapper-foto .button2 {
+                background-color: #00CED1;
+                color: black;
+                height: 60px;
+                width: 160px;
+                line-height: 60px;
+                padding-left: 20px;
+                padding-right: 20px;
+                font-size: 20px;
+                font-family: "Fira code", Helvetica, Arial, sans-serif;
+                font-weight: 500;
+                box-shadow: 5px 5px #00CED1;
+                cursor: pointer;
+                transition: transform 100ms cubic-bezier(0.42, 0, 0.51, 2.64);
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .realfooter {
+                height: 70px;
+                background-color: #00CED1;
+                margin-top: 55px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <img class="h1header" src="Imagens Trab IHC/dino safe.png">
+            <h4 class="caixa">Pesquise aqui</h4>
+            <nav>
+                <a href="#Skills">Perfil</a>
+                <a href="#Projetos">Carrinho</a>
+                <a href="#Sobre">Menu</a>
+                <button>Início</button>
+            </nav>
+        </header>
+        <main>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Forma de pagamento
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                    Carrtão de débito/crédito
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                    Boleto
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                    Pix
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Endereço de entrega
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Estado</option>
+                                <option value="1">Santa Catarina</option>
+                                <option value="2">Paraná</option>
+                                <option value="3">Rio Grande do Sul</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Cidade</option>
+                                <option value="1">Joinville</option>
+                                <option value="2">Curitiba</option>
+                                <option value="3">Porto Alegre</option>
+                            </select>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">CEP</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Endereço</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <section class="realfooter">
+                <h3>Dúvidas? Entre em contato conosco: 0800-765</h3>
+                <h3>Direitos Reservados © 2022</h3>
+            </section>
+        </footer>
+    </body>
+</html>
